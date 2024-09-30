@@ -195,7 +195,7 @@ padding: 120px 0
 .conteiner-skills {
 display: flex;
 align-items: center;
-margin-bottom: 8px;
+
 height: 112px;
 }
 
@@ -236,6 +236,7 @@ background: #f4f4fd;
 display: flex;
 align-items: center;
 justify-content: center;
+margin-bottom: 8px;
 
 }
 
@@ -294,14 +295,15 @@ gap: 24px;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
+   }
    
-}   
-.team-container-walker {
-    padding: 32px 0  
-}
 
 .team-image {
     margin-bottom: 32px;
+}
+
+.team-container-walker {
+     
 }
    
 .team-table-title {
@@ -319,6 +321,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 }
 
 .team-table-icons {
@@ -463,15 +466,15 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
+
+
+
 .footer {
 background: #2e2f42;
 padding: 100px 0;
-display: flex;
-justify-content:space-between;
-align-items: center;
+
 
 }
-
 .container-footer {
     display: flex;
     align-items: baseline;
@@ -505,7 +508,7 @@ max-width: 264px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 120px;
+    
 }
 
 .footer-socialmedia-text {
